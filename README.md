@@ -50,7 +50,7 @@ Questo è un progetto dimostrativo che mostra come integrare **Elasticsearch** i
 
 ### Aggiungere un documento
     ```bash
-        curl -X POST "http://localhost:8080/api/documents" -H "Content-Type: application/json" -d '{
+        curl -X POST "http://localhost:8080/api/documents/create" -H "Content-Type: application/json" -d '{
           "id": "1",
           "title": "Documento di esempio",
           "content": "Questo è un documento di esempio."

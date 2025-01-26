@@ -89,7 +89,7 @@ Se non desideri installare Elasticsearch localmente, puoi utilizzare un'istanza 
     Puoi testare che Elasticsearch sia correttamente integrato visitando gli endpoint API descritti nel progetto. Usa strumenti come Postman o curl per interagire con le API.
 1. Esegui una richiesta per aggiungere un documento:
     ```bash
-    curl -X POST "http://localhost:8080/api/documents" -H "Content-Type: application/json" -d '{
+    curl -X POST "http://localhost:8080/api/documents/create" -H "Content-Type: application/json" -d '{
       "id": "1",
       "title": "Nuovo Documento di esempio",
       "content": "Questo è un nuovo documento di esempio."
