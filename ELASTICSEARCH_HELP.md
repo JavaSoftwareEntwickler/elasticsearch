@@ -85,7 +85,7 @@ Se non desideri installare Elasticsearch localmente, puoi utilizzare un'istanza 
     mvn spring-boot:run
     ```
    L'applicazione sarà disponibile su http://localhost:8080 (o su una porta diversa se configurata diversamente).
-### Passo 1: Verifica il Funzionamento
+### Passo 2: Verifica il Funzionamento
     Puoi testare che Elasticsearch sia correttamente integrato visitando gli endpoint API descritti nel progetto. Usa strumenti come Postman o curl per interagire con le API.
 1. Esegui una richiesta per aggiungere un documento:
     ```bash
