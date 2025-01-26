@@ -22,7 +22,7 @@ Questo è un progetto dimostrativo che mostra come integrare **Elasticsearch** i
 - **Java 21+** installato sulla tua macchina.
 - Un'istanza di **Elasticsearch** in esecuzione (puoi usare una versione locale o utilizzare un servizio cloud come Elastic Cloud).
 - **Maven** per la gestione delle dipendenze (oppure utilizza un IDE che supporta Maven come IntelliJ IDEA o Eclipse).
-
+- **Elasticsearch** deve essere configurato, vedi [ELASTICSEARCH_HELP.md](ELASTICSEARCH_HELP.md) per maggiori dettagli.
 ## Setup del progetto
 
 1. **Clona il repository**:
