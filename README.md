@@ -77,6 +77,3 @@ Questo è un progetto dimostrativo che mostra come integrare **Elasticsearch** i
     ```
 ## Licenza
 Questo progetto è distribuito con licenza **MIT**. Per ulteriori informazioni, vedere il file `LICENSE`.
-```
-
-
