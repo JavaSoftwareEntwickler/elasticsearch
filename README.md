@@ -81,4 +81,4 @@ Questo è un progetto dimostrativo che mostra come integrare **Elasticsearch** i
 Siamo felici di accettare contributi per migliorare questo progetto! Per favore, segui le istruzioni nel file [CONTRIBUISCI](CONTRIBUISCI.md) per sapere come contribuire.
 
 ## Licenza
-Questo progetto è distribuito con licenza **MIT**. Per ulteriori informazioni, vedere il file `LICENSE`.
+Questo progetto è distribuito con licenza **MIT**. Per ulteriori informazioni, vedere il file [LICENSE](LICENSE).
