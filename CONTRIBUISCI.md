@@ -11,7 +11,7 @@ Siamo felici di accettare contributi per migliorare questo progetto! Segui i pas
 Clona il tuo fork sul tuo ambiente locale:
 
 ```bash
-git clone git@github.com:tuo-username/elasticsearch.git
+git clone git@github.com:JavaSoftwareEntwickler/elasticsearch.git
 cd elasticsearch
 ```
 
