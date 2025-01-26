@@ -45,7 +45,7 @@ Se non desideri installare Elasticsearch localmente, puoi utilizzare un'istanza 
 1. Apri il file `src/main/resources/application.properties` del tuo progetto.
 
 2. Modifica la configurazione di Elasticsearch con l'endpoint del tuo cluster cloud:
-   ```properties
+   ```
    spring.data.elasticsearch.cluster-nodes=your-cluster-name.us-east-1.aws.found.io:9243
    spring.data.elasticsearch.cluster-name=your-cluster-name
    spring.data.elasticsearch.credentials.username=your-username
