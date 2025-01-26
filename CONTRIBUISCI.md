@@ -28,7 +28,7 @@ git checkout -b nome-del-branch
 - Esegui i test per verificare che tutto funzioni correttamente:
 
 ```bash
-vn test
+mvn test
 ```
 
 ## 5. Commit delle Modifiche
