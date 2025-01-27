@@ -49,7 +49,7 @@ Questo è un progetto dimostrativo che mostra come integrare **Elasticsearch** i
 ## Esempi di utilizzo delle API
 
 ### Aggiungere un documento
-    ```bash
+    ```
         curl -X POST "http://localhost:8080/api/documents/create" -H "Content-Type: application/json" -d '{
           "id": "1",
           "title": "Documento di esempio",
@@ -57,22 +57,22 @@ Questo è un progetto dimostrativo che mostra come integrare **Elasticsearch** i
         }'
     ```
 ### Eseguire una ricerca
-    ```bash
+    ```
         curl -X GET "http://localhost:8080/api/search?q=esempio"
     ```
 ### Ottenere un documento per ID
-    ```bash
+    ```
         curl -X GET "http://localhost:8080/api/documents/1"
     ```
 ### Aggiornare un documento
-    ```bash
+    ```
         curl -X PUT "http://localhost:8080/api/documents/1" -H "Content-Type: application/json" -d '{
           "title": "Documento di esempio aggiornato",
           "content": "Questo è un documento di esempio aggiornato."
         }'
     ```
 ### Eliminare un documento
-    ```bash
+    ```
         curl -X DELETE "http://localhost:8080/api/documents/1"
     ```
 
